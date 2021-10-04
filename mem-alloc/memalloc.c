@@ -42,7 +42,7 @@ size_t *get_chunk(size_t size)
                 *next = 0; //Remove the next chunk
                 if (*current >= size) //If coalescing gives us the memory we need, then split and return that memory
                 {
-                    split(current,size); //Splitting chunks
+                    split(current, size); //Splitting chunks
                     return current;
                 }
             }
