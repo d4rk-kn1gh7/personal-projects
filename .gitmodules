@@ -1,0 +1,3 @@
+[submodule "toy-vm"]
+	path = toy-vm
+	url = https://github.com/d4rk-kn1gh7/toy-vm
